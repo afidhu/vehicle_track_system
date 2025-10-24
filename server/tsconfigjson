@@ -1,0 +1,35 @@
+
+    {
+      "compilerOptions": {
+         "allowImportingTsExtensions": true,
+        "target": "es2020",
+        "module": "nodenext",
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "esModuleInterop": true,
+        "strict": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+       
+        "noEmit": true
+      },
+      "include": ["src/**/*.ts"],
+      "exclude": ["node_modules"]
+    }
+
+//     Latitude: -6.7924
+
+// Longitude: 39.2083
+
+
+deviceLocation: { latitude: '-6.7624095', longitude: '39.2038685' }
+deviceLocation: { latitude: '-6.7624095', longitude: '39.2038685' }
+deviceLocation: { latitude: '-6.7624095', longitude: '39.2038685' }
+deviceLocation: { latitude: '-6.7624095', longitude: '39.2038685' }
+deviceLocation: { latitude: '-6.7624095', longitude: '39.2038685' }
+deviceLocation: { latitude: '-6.7624095', longitude: '39.2038685' }
+deviceLocation: { latitude: '-6.7624095', longitude: '39.2038685' }
+deviceLocation: { latitude: '-6.7624095', longitude: '39.2038685' }
+deviceLocation: { latitude: '-6.7624095', longitude: '39.2038685' }
+deviceLocation: { latitude: '-6.7624095', longitude: '39.2038685' }
+deviceLocation: { latitude: '-6.7624095', longitude: '39.2038685' }
