@@ -13,7 +13,7 @@ export const socketHandlers=(io:Server, socket:Socket)=> {
 
   socket.on("send_location", async (data: any) => {
     console.log('received_location:',data)
-    const addedData =await addLocation(data)
+    const addedData = await addLocation(data)
     io.emit('received_location', addedData)
     console.log('reseived data are :', addedData)
   });

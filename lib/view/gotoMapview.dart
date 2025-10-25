@@ -28,9 +28,7 @@ class _GoToMapViewState extends State<GoToMapView> {
             backgroundColor: WidgetStatePropertyAll(Colors.red)
           ),
 
-            onPressed: (){
-              Get.to(() => MapViewLocations());
-            },
+            onPressed:deviceLocationController.recievedData,
             child: Icon(Icons.run_circle)
         ),
       ),

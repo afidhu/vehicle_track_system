@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import '../controller/formValidation.dart';
+import '../location/devicelocation.dart';
 import '../utils/reuseColors.dart';
 
 class RegisterLocation extends StatefulWidget {
@@ -14,6 +15,8 @@ class RegisterLocation extends StatefulWidget {
 class _RegisterLocationState extends State<RegisterLocation> {
   MyFormValidateController myFormValidateController =
   Get.put(MyFormValidateController());
+
+  // DeviceLocationController deviceLocationController = Get.put(DeviceLocationController());
 
   @override
   Widget build(BuildContext context) {
@@ -82,7 +85,7 @@ class _RegisterLocationState extends State<RegisterLocation> {
                     TextFormField(
                       controller:
                       myFormValidateController.controllerPlace,
-                      keyboardType: TextInputType.number,
+                      keyboardType: TextInputType.multiline,
                       validator: (val) {
                         return myFormValidateController.ValidatePlace(val!);
                       },
